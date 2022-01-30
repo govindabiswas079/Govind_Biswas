@@ -1,0 +1,28 @@
+.contactForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contactTextField {
+    margin: 20px;
+}
+
+.contactButton {
+    margin-bottom: 30px;
+}
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../../img/loader.gif') 50% 50% no-repeat #ffffff6b
+        /* background: url('./1488.gif')
+    50% 50% no-repeat #ffffff6b */
+        /* rgba(255, 255, 255, 0.596) */
+    ;
+}

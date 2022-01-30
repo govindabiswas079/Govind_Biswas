@@ -1,0 +1,10 @@
+.SkillsBG{
+    background-image: url('../../img/bg_10.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bgcolo{
+    background-image: linear-gradient(to right, rgb(134, 43, 43) , rgb(133, 49, 49), rgb(146, 66, 66), rgb(134, 66, 66))
+}

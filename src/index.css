@@ -5,9 +5,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #FFFFFF;
+  scroll-behavior: smooth;
+  /* user-select: none; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+::selection {
+  background: #1fde1f82;
+  color: #ffffff;
+}
+
+.offlineBG {
+  /* height: 100vh;
+  background-image: linear-gradient(270deg, rgba(176, 42, 42, .16) 0%,
+      rgba(176, 42, 42, .56) 18.45%,
+      rgba(176, 42, 42, .8) 49.67%,
+      rgba(176, 42, 42, .56) 82.52%,
+      rgba(176, 42, 42, .196364) 99.7%,
+      rgba(189, 40, 40, 0) 99.71%,
+      rgba(51, 18, 18, 0) 99.72%,
+      rgba(203, 56, 55, .16) 99.73%),
+    url(https://static.npmjs.com/abf53a31b2da4657a1a004ee9358551c.png); */
+    width: 100%;
+    min-height: 100vh;
+    display: relative;
+    margin: 0;
+    padding: 0;
+    background: -webkit-linear-gradient(-45deg, #183850 0, #183850 25%, #192C46 50%, #22254C 75%, #22254C 100%);
 }

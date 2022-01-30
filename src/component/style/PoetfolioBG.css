@@ -1,0 +1,8 @@
+.PoetfolioBG{
+    /* background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgb(2, 1, 22) 0%, rgb(7, 7, 32) 35%, rgb(13, 23, 36) 100%); */
+    background-image: url('../../img/bg_6.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

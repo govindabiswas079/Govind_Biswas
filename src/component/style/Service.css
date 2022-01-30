@@ -1,0 +1,30 @@
+.avatar {
+    /* Rounded border */
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+    background-color: aqua;
+}
+
+.avatar__image {
+    /* Rounded border */
+    border-radius: 50%;
+
+    /* Take full size */
+    height: 100%;
+    width: 100%;
+}
+
+.App-headerrrrr {
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin: 0 30px;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+
+.divflexpaperr{
+    margin-left: 10px;
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto&display=swap');
+
+.AboutSection{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    font-family: 'Nunito';
+}
+.image{
+    width: 35%;
+    height: 35%;
+}
+.cardbox{
+    display: flex;
+}
+.card{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.425);
+    margin: 10px;
+    font-family: 'Nunito';
+}
