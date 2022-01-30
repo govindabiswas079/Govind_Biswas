@@ -55,7 +55,7 @@ function App() {
           options={{ pullDownHeight: 100 }}
           onRefresh={onRefresh}
         >
-          <Online>
+          {/* <Online> */}
             <NavBar cliskOpenEvent={cliskOpenEvent} clickClosEvent={clickClosEvent} click={click} />
             <Home />
             <About />
@@ -69,9 +69,9 @@ function App() {
             <Object />
             <Contact />
             <Footer />
-          </Online>
+          {/* </Online> */}
 
-          <Offline>
+          {/* <Offline>
             <div className='offlineBG'>
               <Backdrop
                 sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }}
@@ -90,7 +90,7 @@ function App() {
                 </div>
               </div>
             </div>
-          </Offline>
+          </Offline> */}
         </PullToRefresh>
       </div>
     </>

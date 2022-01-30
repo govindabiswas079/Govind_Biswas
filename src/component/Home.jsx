@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import './style/Home.css';
 import { init } from 'ityped';
+import WhatsAppWidget from 'react-whatsapp-widget'
+import 'react-whatsapp-widget/dist/index.css'
 import SpeedDialTooltipOpen from './SpeedDialTooltipOpen';
 
 import uplogo from '../img/icon/uplogo.png';
@@ -42,6 +44,13 @@ export default function Home() {
                     </header>
                 </div>
                 <SpeedDialTooltipOpen />
+                <div>
+                    <WhatsAppWidget
+                        phoneNumber='919511723507'
+                        companyName="Prem Biswas"
+                        textReplyTime="online"
+                    />
+                </div>
             </div>
         </div>
     )

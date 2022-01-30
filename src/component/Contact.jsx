@@ -18,8 +18,8 @@ import GitHub from '@mui/icons-material/GitHub';
 import SendIcon from '@mui/icons-material/SendRounded';
 import CustomizedSnackbars from './CustomizedSnackbars';
 
-import WhatsAppWidget from 'react-whatsapp-widget'
-import 'react-whatsapp-widget/dist/index.css'
+/* import WhatsAppWidget from 'react-whatsapp-widget'
+import 'react-whatsapp-widget/dist/index.css' */
 
 export default function Contact() {
     const form = useRef();
@@ -146,11 +146,13 @@ export default function Contact() {
                     </Grid>
                 </Grid>
                 {/* <WhatsAppChat /> */}
-                <WhatsAppWidget
-                    phoneNumber='919511723507'
-                    companyName="Prem Biswas"
-                    textReplyTime="online"
-                />
+                {/* <div>
+                    <WhatsAppWidget
+                        phoneNumber='919511723507'
+                        companyName="Prem Biswas"
+                        textReplyTime="online"
+                    />
+                </div> */}
             </div >
             <br />
             <br />
